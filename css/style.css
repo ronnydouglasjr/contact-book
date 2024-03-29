@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+
+}
+
+.container {
+  width: 45%;
+  margin: 0 auto;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+
+  text-align: center;
+
+  margin-top: 50px;
+  
+}
+
+header {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+
+.container header img{
+  height: 55px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  display: flex;
+  align-items: center;
+
+  font-size: 20px;
+
+  background-color: rgba(0, 0, 0, 0.671);
+  color: white;
+
+  border: none;
+  cursor: pointer;
+
+  transition: 1s;
+
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+}
+
+
+input[type="submit"]:hover {
+  background: #000;
+}
+
+input[type="text"] {
+  width: 250px;
+}
+
+table thead th {
+  border-bottom: 2px solid black;
+  padding: 15px;
+}
+
+table tbody td {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 16px 0px;
+
+}
+
